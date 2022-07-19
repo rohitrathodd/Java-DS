@@ -6,7 +6,7 @@ public class Rectangle extends Shape{
     private int width;
 
     public Rectangle(){
-        this(0,0,0,0)
+        this(0,0,0,0);
     }
 
     public Rectangle(int length,int width){
