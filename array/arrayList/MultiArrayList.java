@@ -10,11 +10,10 @@ public class MultiArrayList {
 	
 		ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 		
-		//initialization
-		for(int i =0; i<3;i++) {
-			list.add(new ArrayList<>());
-		} 
-		
+
+		list.add(new ArrayList<>());
+		list.add(new ArrayList<>());
+		list.add(new ArrayList<>());
 		
 		for(int i=0; i<3; i++) {
 			
@@ -25,10 +24,7 @@ public class MultiArrayList {
 		
 		System.out.println(list);
 	
-	
-	
-	
-	
+
 	}
 
 	
