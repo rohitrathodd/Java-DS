@@ -5,7 +5,9 @@ public class IsPrimeNumber {
         int n=47;
         System.out.println(isprime(n));
     }
-
+    public void bark(){
+        System.out.println("barking");
+    }
     public static boolean isprime(int num){
 
         for(int i=2;i*i<num;i++){
