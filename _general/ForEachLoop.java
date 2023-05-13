@@ -7,5 +7,7 @@ public class ForEachLoop {
         for(int n:arr){
             System.out.println(n);
         }
+
+
     }
 }
